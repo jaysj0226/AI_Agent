@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.AI_Agent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorPrimaryVariant">@color/primary_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary_500</item>
+        <item name="colorSecondaryVariant">@color/secondary_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/neutral_900</item>
+        <item name="android:colorBackground">@color/neutral_050</item>
+        <item name="colorOnBackground">@color/neutral_900</item>
+        <item name="android:statusBarColor">@color/neutral_050</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="sliderStyle">@style/Widget.AI_Agent.Slider</item>
+    </style>
+
+    <style name="Theme.AI_Agent.NoActionBar" parent="Theme.AI_Agent" />
+
+    <style name="Theme.AI_Agent.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/neutral_900</item>
+        <item name="colorControlNormal">@color/neutral_900</item>
+    </style>
+
+    <style name="Theme.AI_Agent.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Widget.AI_Agent.Slider" parent="Widget.MaterialComponents.Slider">
+        <item name="trackHeight">8dp</item>
+        <item name="thumbRadius">12dp</item>
+        <item name="thumbElevation">2dp</item>
+    </style>
+</resources>

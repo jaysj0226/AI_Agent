@@ -1,0 +1,15 @@
+[Unit]
+Description=Condition Coach AI Gateway
+After=network.target
+
+[Service]
+Type=simple
+User=samue
+WorkingDirectory=/home/samue/apps/condition-coach-ai-gateway
+EnvironmentFile=/home/samue/apps/condition-coach-ai-gateway/.env
+ExecStart=/home/samue/apps/condition-coach-ai-gateway/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

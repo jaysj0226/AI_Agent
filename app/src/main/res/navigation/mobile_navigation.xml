@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_today">
+
+    <fragment
+        android:id="@+id/nav_today"
+        android:name="com.cookandroid.ai_agent.ui.today.TodayFragment"
+        android:label="@string/menu_today"
+        tools:layout="@layout/fragment_today" />
+
+    <fragment
+        android:id="@+id/nav_checkin"
+        android:name="com.cookandroid.ai_agent.ui.checkin.CheckInFragment"
+        android:label="@string/menu_check_in"
+        tools:layout="@layout/fragment_checkin" />
+
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.cookandroid.ai_agent.ui.report.WeeklyReportFragment"
+        android:label="@string/menu_report"
+        tools:layout="@layout/fragment_weekly_report" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.cookandroid.ai_agent.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

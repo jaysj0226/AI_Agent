@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary: Teal Green (wellness, calm, health) -->
+    <color name="primary_700">#FF1A7A5E</color>
+    <color name="primary_500">#FF2D9F7F</color>
+    <color name="primary_100">#FFE0F2EC</color>
+    <color name="primary_050">#FFF0FAF6</color>
+
+    <!-- Secondary: Warm Coral (action, energy) -->
+    <color name="secondary_500">#FFFF6B5A</color>
+    <color name="secondary_100">#FFFFF0ED</color>
+
+    <!-- Neutral -->
+    <color name="neutral_900">#FF1A1D26</color>
+    <color name="neutral_700">#FF374151</color>
+    <color name="neutral_500">#FF6B7280</color>
+    <color name="neutral_300">#FFD1D5DB</color>
+    <color name="neutral_100">#FFF3F4F6</color>
+    <color name="neutral_050">#FFF9FAFB</color>
+
+    <!-- Score Band Colors -->
+    <color name="score_good">#FF2D9F7F</color>
+    <color name="score_fair">#FFF5A623</color>
+    <color name="score_low">#FFE85D4A</color>
+
+    <!-- Metric Accent Colors -->
+    <color name="metric_sleep">#FF6366F1</color>
+    <color name="metric_sleep_bg">#FFEEF0FF</color>
+    <color name="metric_energy">#FFF59E0B</color>
+    <color name="metric_energy_bg">#FFFFFBEB</color>
+    <color name="metric_stress">#FFEF4444</color>
+    <color name="metric_stress_bg">#FFFEF2F2</color>
+    <color name="metric_focus">#FF3B82F6</color>
+    <color name="metric_focus_bg">#FFEFF6FF</color>
+
+    <!-- Legacy aliases (keep for compatibility) -->
+    <color name="sage_100">#FFF0FAF6</color>
+    <color name="sage_300">#FF93C5B5</color>
+    <color name="sage_600">#FF2D9F7F</color>
+    <color name="pine_800">#FF1A1D26</color>
+    <color name="sand_050">#FFF9FAFB</color>
+    <color name="sand_200">#FFE5E7EB</color>
+    <color name="clay_500">#FF2D9F7F</color>
+    <color name="slate_900">#FF1A1D26</color>
+    <color name="slate_600">#FF6B7280</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AI_Agent.BottomNav.ActiveIndicator" parent="">
+        <item name="android:color">@color/primary_050</item>
+    </style>
+
+    <style name="Widget.AI_Agent.FAB.Round" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
