@@ -179,4 +179,4 @@ AI_Agent/
 
 ## 라이선스
 
-이 프로젝트는 개인 프로젝트입니다.
+MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일을 참고하세요.
